@@ -1,0 +1,86 @@
+body {
+  background-color: rgb(255, 255, 255);
+}
+h1{
+    color: rgb(122, 4, 4);
+    box-shadow: inset;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+img{
+    border-radius: 3%;
+    width: 400px;
+    height: 300px ;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.TABLA1{
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    height: auto;
+    background-position: center center;
+    border-collapse: collapse;
+}
+.TABLA1 td a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 15px;
+    text-align: center;
+}
+.btn-clientes{
+    background-color: #C0392B;
+}
+.btn-productos{
+    background-color: #E67E22;
+}
+.btn-empleados{
+    background-color: #27AE60;
+}
+.btn-detalle{
+    background-color: #F1C40F;
+}
+.TABLA1 .btn-detalle a {
+    color: black;
+}
+
+td{
+    text-align: center;
+    vertical-align: middle;
+}
+
+.TABLA2{
+    width: 100%;           
+    border-collapse: collapse; 
+    table-layout: fixed;
+}
+.TABLA2 td{
+    font-family: 'Times New Roman', Times, serif;
+    width: 50%;            
+    vertical-align: top;   
+    padding: 15px;         
+    text-align: center;    
+    border: 1px solid #ccc;
+}
+.foto1{
+    border-radius: 10%;
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 50%;
+    height: 100% ;
+}
+.foto2{
+    border-radius: 10%;
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 50%;
+    height: 50% ;
+}
+.foto3{
+    border-radius: 10%;
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 50%;
+    height: 50% ;
+}
