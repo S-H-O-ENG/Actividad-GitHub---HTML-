@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display SC', serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.CajaTexto{
+    position: relative;
+}
+.CajaTexto input{
+    width: 230px;
+    padding: 17px 13px;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 8px;
+    
+
+}
+.CajaTexto label{
+    position: absolute;
+    top: 15px;
+    left: 13px;
+    color: black;
+    transition: 0.3s;
+    pointer-events: none;
+}
+.CajaTexto input:focus + label,
+.CajaTexto input:valid + label{
+    top: -9px;
+    color: white;
+    background: black;
+    padding: 2px 7px;
+    border-radius: 12px;
+    font-size: 13px;
+}
+h1{
+    font-family: 'Playfair Display SC', serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color:#000;
+    margin-bottom: 10px;
+
+}
