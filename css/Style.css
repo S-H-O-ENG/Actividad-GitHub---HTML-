@@ -47,8 +47,11 @@ img{
 .btn-detalle{
     background-color: #F1C40F;
 }
+.btn-pedidos{
+    background-color: #C0392B;
+}
 .TABLA1 .btn-detalle a {
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 td{
