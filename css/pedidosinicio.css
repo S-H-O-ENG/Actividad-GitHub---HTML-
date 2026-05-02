@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap'); 
+
+body{
+    background-image: url(../img/Background.png);
+}
+
+.Pedidosinicio{
+    text-align: center;
+    border: solid black;
+    border-radius: 30px;
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+    margin-top: 8%;
+    padding: 10px 10px;
+    background-color: rgb(252, 236, 217, 0.95);
+    box-shadow: 7px 7px 100px;
+}
+
+.inicio{
+    font-size: 1.5rem;
+}
+
+.datos input{
+    box-shadow: 7px 7px 10px;
+    font-size: 1.3rem;
+}
+.datos button{
+    box-shadow: 7px 7px 10px;
+    font-size: 1.3rem;
+}
+
+#atencion{
+    font-weight: bold;
+    text-decoration: underline;
+    color: crimson;
+}
+a{
+    color: blue;
+}
+* {
+    font-family: 'Lobster Two', cursive;
+}
