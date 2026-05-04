@@ -1,5 +1,5 @@
 body {
-    background-color: #F5EBE1;
+    background-image: url(https://i.pinimg.com/736x/49/05/d5/4905d55729aba5cfea95acde495b23fa.jpg);
 }
 
 h1{
@@ -68,4 +68,9 @@ img{
 .boque-texto , p{
     font-size: 25px;
     font-family: "Ginebra";
+}
+a{
+    text-decoration: none;
+    padding: 10px 20px;
+
 }
