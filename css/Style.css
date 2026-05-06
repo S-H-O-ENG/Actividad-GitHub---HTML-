@@ -1,76 +1,97 @@
 body {
-    background-image: url(https://i.pinimg.com/736x/49/05/d5/4905d55729aba5cfea95acde495b23fa.jpg);
+    background-image: url(/img/Background.png);
+    background-position: center center;
+    background-attachment: fixed;
+    background-color: #F8F5E9;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
 h1{
-    font-size: 50px;
-    color: rgb(85, 1, 1);
-    text-align: left;
-    font-family: "Algerian";
-    margin-bottom: auto;
+    color: rgb(122, 4, 4);
+    box-shadow: inset;
+    font-family: 'Playfair Display SC', serif;
+    text-align: center;
+    background-color: #F8F5E9;
 }
-
 img{
-    width: 800px;
-    height: 600px;
-    background-position: center;
+    border-radius: 3%;
+    width: 400px;
+    height: 300px ;
+    display: block;
     margin-left: auto;
     margin-right: auto;
-
 }
-.contenedor-encabezado {
-    display: flex;                  
-    justify-content: space-between; 
-    align-items: center;            
-    padding: 20px;                   
-    width: 100%;                    
-    box-sizing: border-box;
-}
-.tabla-menu {
-    border-collapse: collapse; 
-    text-align: center;
-    font-family: 'Castellar';
-    font-size: 25px;
-}
-
-.tabla-menu td {
-    padding: 10px 20px; 
-    border: 1px solid #ccc;
-}
-
-.contenedor-imagen {
-    padding: 20px;
-}
-
-.imagen-pizza {
-    max-width: 500px; 
+.TABLA1{
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
     height: auto;
-    border-radius: 8px;
+    background-position: center center;
+    border-collapse: collapse;
 }
-
-.boque-texto{
-    flex: 1px ;
-    padding-top: 10px ;
-}
-
-.seccion-principal{
-    display: flex;
-    align-self: flex-start;
-    gap: 30px ;
-    padding: 20px ;
+.TABLA1 td a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 15px;
     text-align: center;
 }
-.boque-texto , h3{
-    font-family: "Brush Script MT";
-    font-size: 50px ;
-    color: #5D0D21;
+.btn-clientes{
+    background-color: #C0392B;
 }
-.boque-texto , p{
-    font-size: 25px;
-    font-family: "Ginebra";
+.btn-productos{
+    background-color: #E67E22;
 }
-a{
-    text-decoration: none;
-    padding: 10px 20px;
+.btn-empleados{
+    background-color: #27AE60;
+}
+.btn-detalle{
+    background-color: #F1C40F;
+}
+.btn-pedidos{
+    background-color: #C0392B;
+}
+.TABLA1 .btn-detalle a {
+    color: rgb(255, 255, 255);
+}
 
+td{
+    text-align: center;
+    vertical-align: middle;
+}
+
+.TABLA2{
+    width: 100%;           
+    border-collapse: collapse; 
+    table-layout: fixed;
+    background-color: #F8F5E9;
+}
+.TABLA2 td{
+    font-family: 'Times New Roman', Times, serif;
+    width: 50%;            
+    vertical-align: top;   
+    padding: 15px;         
+    text-align: center;    
+    border: 5px solid #ccc;
+    border-color: antiquewhite;
+}
+.foto1{
+    border-radius: 10%;
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 50%;
+    height: 100% ;
+}
+.foto2{
+    border-radius: 10%;
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 50%;
+    height: 50% ;
+}
+.foto3{
+    border-radius: 10%;
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 50%;
+    height: 50% ;
 }
